@@ -1,3 +1,11 @@
 <p align="center">
   <img alt="nrdcg logo" src="https://raw.githubusercontent.com/nrdcg/.github/main/profile/nrdcg-logo-v3.png">
 </p>
+
+The NRDCG (Natural Reserve of DNS Clients in Go) is a protected area for DNS clients in Go.
+
+We welcome on this organization:
+- original DNS clients
+- maintained fork of DNS clients
+
+If you have a maintained fork (of a deprecated library) or created a DNS client and want to manage your repository with a team, you can create an issue [here](https://github.com/nrdcg/.github/issues) to explain your situation.
