@@ -1,12 +1,12 @@
-name: Test Name
-description: Test Description
 body:
   - type: checkboxes
     attributes:
-      - label: Option 1
-        required: true
-      - label: Option 2
-        required: false
+      label: Welcome
+      options:
+        - label: Option 1
+          required: true
+        - label: Option 2
+          required: false
 
   - type: dropdown
     attributes:
