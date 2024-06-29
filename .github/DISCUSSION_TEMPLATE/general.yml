@@ -1,0 +1,31 @@
+name: Test Name
+description: Test Description
+body:
+  - type: checkboxes
+    attributes:
+      - label: Option 1
+        required: true
+      - label: Option 2
+        required: false
+
+  - type: dropdown
+    attributes:
+      label: Choose?
+      multiple: true
+      options:
+        - A
+        - B
+        - C
+        - D
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Text
+      description: Foo
+      placeholder: Paste output here
+      render: console
+    validations:
+      required: true
